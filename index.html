@@ -12,6 +12,10 @@
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
   <style type="text/css">
+  @font-face {
+    font-family: Kreuz;
+    src: url(fonts/kreuz-light.otf);
+}
   body{
       margin: 0 auto;
       padding: 0 auto;
@@ -32,12 +36,13 @@
         display:flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
         width: 50%;
     }
     #buttons a{
         display: block;
         height: 100%;
+        box-shadow: 0 2px 2px rgb(70, 70, 70);
     }
     a:link{
         text-decoration: none;
@@ -47,11 +52,11 @@
         border: 4px solid rgb(31, 30, 30);
         color: rgb(27, 27, 27);
         border-radius:70px;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: Kreuz;
         font-size: 25px;
         font-weight: bold;
         background-color: transparent;
-        text-shadow: 0 4px 4px rgb(61, 60, 60);
+        text-shadow: 0 2px 2px rgb(70, 70, 70, 30);
         text-align:center;
     }
     a:active{
