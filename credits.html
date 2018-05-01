@@ -2,91 +2,135 @@
 <!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
 <!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
 <!--[if IE 8]><html class="preIE9"><![endif]-->
-<!--[if gte IE 9]><!--><html><!--<![endif]-->
-  <head>
-    <meta charset="UTF-8">
+<!--[if gte IE 9]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Mind the Black Box</title>
+  <title>Mind the Black Box</title>
   <meta name="author" content="name">
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
-  @font-face {
-    font-family: Kreuz;
-    src: url(fonts/kreuz-light.otf);
-}
-  body{
+    @font-face {
+      font-family: Kreuz;
+      src: url(fonts/kreuz-light.otf);
+    }
+
+    body {
       margin: 0 auto;
       padding: 0 auto;
-  }
-    #jumbotron{
-        background-image: url('background.jpg');
-        background-size:cover;
-        background-position: center;
-        height: 100vh;
-        width:100%;
-        margin: 0 auto;
-        display:flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items:center;
+      font-family: Kreuz;
     }
-    #buttons{
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-bottom: 100px;
-        width: 50%;
+
+    .text {
+      width: 37%;
+      padding-bottom: 50px;
     }
-    #buttons a{
-        display: block;
-        height: 100%;
-        box-shadow: 0 3px 3px rgb(60, 60, 60, 0.6);
+    h2 {
+    display: inline;
+}
+
+    #jumbotron {
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
     }
-    #homeb{
-        border: none;
-        box-shadow: none !important;
-        width: 10%;
+
+    #buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-bottom: 100px;
+      width: 50%;
     }
-    a:link{
-        text-decoration: none;
-        padding: 10px 0;
-        height: 60px;
-        width: 200px;
-        border: 4px solid rgb(31, 30, 30);
-        color: rgb(27, 27, 27);
-        border-radius:70px;
-        font-family: Kreuz;
-        font-size: 25px;
-        font-weight: bold;
-        background-color: transparent;
-        text-shadow: 0 3px 3px rgb(60, 60, 60, 0.6);
-        text-align:center;
+
+    #buttons a {
+      display: block;
+      height: 100%;
+      box-shadow: 0 3px 3px rgb(60, 60, 60, 0.6);
     }
-    a:active{
-        text-decoration: none;
+
+    #homeb {
+      border: none;
+      box-shadow: none !important;
+      width: 10%;
     }
-    a:visited{
-        text-decoration: none;
-        color: rgb(27, 27, 27);
+
+    a:link {
+      text-decoration: none;
+      padding: 10px 0;
+      height: 60px;
+      width: 200px;
+      border: 4px solid rgb(31, 30, 30);
+      color: rgb(27, 27, 27);
+      border-radius: 70px;
+      font-family: Kreuz;
+      font-size: 25px;
+      font-weight: bold;
+      background-color: transparent;
+      text-shadow: 0 3px 3px rgb(60, 60, 60, 0.6);
+      text-align: center;
     }
-    a:hover{
-        transform: scale(1.05);
-        transition: 1s ease-in-out;
+
+    a:active {
+      text-decoration: none;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: rgb(27, 27, 27);
+    }
+
+    a:hover {
+      transform: scale(1.05);
+      transition: 1s ease-in-out;
     }
   </style>
-  </head>
-  <body>
-    <div id="jumbotron">
-      <h1>CREDITS</h1>
-        <div id="buttons">
-          <a href="index.html" id="homeb"><i class="fa fa-home"></i></a>
-          <a href="about.html">ABOUT</a>
-          <a href="teaser.html">TEASER</a>
-          <a href="credits.html">CREDITS</a>
-        </div>
+</head>
+
+<body>
+  <div id="jumbotron">
+    <h1>CREDITS</h1>
+    <div class="text">
+      <h2>Project by</h2><br> Clara Borras Coll<p></p>
+
+      <h2>Child Participants</h2> <br>Mariona, Aina and Berta Majó Llimós
+<br>Pere and Maria Quintana Viaplana
+<br>Lorna and Guifré Navallas Vidal
+<br>Greta Klamburg Sabata
+<br>Miquel Borràs Alivés
+<br>Theo and Nils Thorn Mateos
+<p></p>
+
+      <h2>Website</h2><br> Nadia Campo Woytuk Alejandro García
+      <p></p>
+
+      <h2>Tutors</h2><br> Jonas Friden Eva Erwander Pascal Prosek Judith Seng
+<p></p>
+      <h2>Reviewer:</h2> Mattias Gunnarsson
+      <br>
+      <h2>Examiner:</h2> Carl-Johan Skogh HDK, University of Gothenburg 2018
+
     </div>
-  </body>
+    <div id="buttons">
+      <a href="index.html" id="homeb"><i class="fa fa-home"></i></a>
+      <a href="about.html">ABOUT</a>
+      <a href="teaser.html">TEASER</a>
+      <a href="credits.html">CREDITS</a>
+    </div>
+  </div>
+</body>
+
 </html>
